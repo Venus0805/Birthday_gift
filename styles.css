@@ -112,13 +112,44 @@ z-index: -100;
   display: none;
 }
 
-.name-text {
+/* .name-text {
   bottom: 5px;
-}
+} */
 
 .name {
   position: absolute;
-  bottom: 20%; 
+  bottom: 30%; 
   width: 100%; 
   text-align: center;
+}
+
+.diplomata-regular {
+  font-family: "Diplomata", serif;
+  font-weight: 400;
+  font-style: normal;
+  bottom: 5px;
+  font-size: 60px;
+}
+
+#cake {
+  position: absolute;
+  bottom: 2%; 
+  left: 55%; 
+  transform: translateX(-50%);   
+}
+
+
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #d23669;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
