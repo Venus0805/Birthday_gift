@@ -1,0 +1,50 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(bb.PNG);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  table {
+    border-spacing: 15px; /* Add space between cells */
+}
+
+td {
+    padding: 10px; /* Add inner spacing for each cell */
+}
+  
+  .photo  {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */ 
+    border-radius: 20px; 
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+  } */
+  
+  .photo:hover  {
+    transform: scale(1.1); /* Zoom effect */
+}
+  
+ 
